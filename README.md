@@ -1,8 +1,7 @@
-# web-dev-starter
+# M6.2 Lab: Paper Template
 
-This is a starter project for web development with no frameworks and minimal
-dependencies. It is intended to be a starting point for web development projects
-that are written in plain HTML, CSS, and JavaScript.
+This project displays a letterheaded paper template out of a 
+combination of images and text.
 
 ## Getting Started
 
@@ -27,3 +26,5 @@ To run the tests for the project, run the following command:
 ```bash
 npm test
 ```
+
+## Sources
