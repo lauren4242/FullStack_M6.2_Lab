@@ -1,6 +1,6 @@
 # M6.2 Lab: Paper Template
 
-This project displays a letterheaded paper template out of a 
+This project displays a letter head paper template out of a 
 combination of images and text.
 
 ## Getting Started
@@ -28,3 +28,8 @@ npm test
 ```
 
 ## Sources
+
+https://www.w3schools.com/htmL/html_images_background.asp
+https://www.w3schools.com/css/css3_gradients.asp
+https://www.geeksforgeeks.org/html/radio-button-vs-checkbox-in-html/
+https://www.lipsum.com/

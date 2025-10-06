@@ -39,3 +39,89 @@ h1 {
 }
 
 /* Your CSS below here */
+article {
+  background: 
+    url('/img/top-image.png') no-repeat top center,
+    url('/img/bottom-image.png') no-repeat bottom center,
+    linear-gradient(to top, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.2) 100%); /* Gradient overlay */
+  background-color: white;
+  border-top: rgb(13, 155, 13) 1mm solid;
+  border-bottom: rgb(13, 155, 13) 1mm solid;
+}
+
+h1 {
+  background: 
+    url('/img/logo.png');
+
+  /*not browser compatible*/
+  /*filter:drop-shadow(1px 1px 1px black);*/
+
+  width: 125px;
+  height: 125px;
+  border-radius:50%;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+h2{
+  margin-top: 50px; /* Adjust according to your design */
+  text-align: center;
+  font-size: 24px;
+  color: #333;
+}
+
+h3{
+  text-align: left;
+  font-size: 20px;
+  color: #444;
+  margin-left: 20px;
+}
+
+#quote{
+  font-style: italic;
+  font-size: small;
+  font-weight: bolder;
+  text-align: center;
+  margin: 10px auto;
+  width: 80%;
+  color: #555;
+}
+
+#translation{
+  font-size: small;
+  text-align: center;
+  margin: 10px auto;
+  width: 70%;
+  color: #777;
+}
+#left{
+  text-align: left;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  padding: 20px;
+}
+
+article {
+  width: 100%;
+  max-width: 800px;  /* Limit the width of the article */
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 150px;  /* Adjust according to your design */
+}
+
+#surveyForm{
+  margin: 20px auto;
+  padding: 10px;
+  width: 80%;
+}

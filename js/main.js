@@ -62,3 +62,12 @@ export async function fetch5RandomJokes() {
         throw new Error(error.message);
     }
 }
+
+function showSelection() {
+    const selectedOption = document.querySelector('input[name="selection"]:checked');
+    if (selectedOption) {
+      alert("You selected: " + selectedOption.value);
+    } else {
+      alert("Please select an option.");
+    }
+}
